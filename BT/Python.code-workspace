@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Python",
+			"path": "../../Python"
+		},
+		{
+			"name": "game",
+			"path": "C:/Users/nhath/OneDrive/Máy tính/NRO/game"
+		},
+		{
+			"name": "BT",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BT"
+	}
+}

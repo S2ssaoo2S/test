@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+}
+.menu{
+    background: linear-gradient(#0015ff,#62bfff);
+    list-style-type: none;
+    padding: 0;
+}
+.menu>li{
+   padding: 20px;
+   border-right: 2px solid white;
+}
+
+.menu>li:last-child{
+    margin-left: auto;
+    border-right: none;
+}
+.menu>li:hover{
+    background-color: darkblue;
+}
+.menu>li>a{
+    text-decoration: none;
+    color :white;
+}
+.product{
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.product img{
+    width: 100%;
+}
+.product>div{
+      text-align: center;
+      background-color: lightblue;
+      border-radius: 10px;
+      position: relative;
+     
+     
+}
+.price{
+    background-color: gold;
+    position: absolute;
+    margin: 0;
+    top:0;
+    left: 0;
+    border-radius: 10px 0 ;
+}
+.quangcao{
+    width: 70%;
+    margin: 0 auto;
+}
+.quangcao img{
+    width: 100%;
+}
+.quangcao>div{
+    width: 50%;
+}
+.phu>div{
+    width: 20%;
+}
+.right>.info{
+   border: 2px solid red;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.button{
+    padding: 10px;
+}
+input[type='search']{
+   width: 100%;
+   padding: 10px;
+   border: 2px solid blue;
+}

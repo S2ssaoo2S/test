@@ -1,0 +1,117 @@
+body{
+ height: 5000px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  background-color:#0a70a4;
+  padding: 1.5rem 0;
+  
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.bell{
+    position: relative;
+}
+.bell:hover{
+    .info{
+        display: block;
+    }
+}
+.info{ 
+    position: absolute;
+    width: 200px;
+    background-color: wheat;
+    display: none;
+    top: 150%;
+    right: 10%;
+}
+.boder {
+  border-right: 2px solid white;
+}
+.menu > li > a {
+  padding: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.menu > li >div> a{
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.menu > li > div>a:hover {
+    background-color: blue;
+    color: white;
+  }
+.menu > li > a:hover {
+  background-color: blue;
+  color: white;
+}
+.left {
+  width: 40%;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  text-align: center;
+  width: 60%;
+}
+header {
+  color: white;
+  background: linear-gradient(darkblue, blue);
+}
+.for{
+    margin: 0 auto;
+  width: 70%;
+}
+
+.forum > img {
+  border-radius: 50%;
+  width: 120px;
+}
+.forum {
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: lightblue;
+}
+.forum:last-child{
+    border-radius:0 0 10px 10px;
+}
+.ds > ul {
+  list-style-type: none;
+}
+.head {
+  background-color: blue;
+  margin-bottom: 0;
+  padding: 0.8rem;
+  margin-top: 2px;
+  border-radius: 10px 10px 0 0;
+}
+.text1 {
+  text-align: left;
+}
+.adss{
+    width: 14%;
+    
+}
+.ads{
+   text-align: center;
+   position: sticky;
+    top:50px;
+    right: 0.5%;
+    border-radius: 1.2rem;
+    padding: 150px 0;
+    background:linear-gradient(lightblue,blue);
+    color: white;
+}
+footer{
+    background-color: #0a6fa3;
+    color: white;
+}
+
