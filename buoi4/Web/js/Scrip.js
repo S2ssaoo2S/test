@@ -15,7 +15,7 @@ window.onload = function () {
   key = search.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
       console.log(search.value);
-    }
+    } 
   });
 
   let buttons = document.querySelectorAll("button");
